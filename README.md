@@ -26,15 +26,21 @@ Follow these steps to run the project locally:
 ### Step 1: Ensure the Backend is Running
 
 1. **Navigate to the folder containing `db.json`** (the file that holds the customer data).
+  ```bash
+      cd Customer-Management-master
    
-2. If you haven't installed `json-server` yet, you can install it globally with npm:
+3. If you haven't installed `json-server` yet, you can install it globally with npm:
 
    ```bash
       npm install -g json-server
       json-server --watch db.json --port 5000
-### Step 2: Install Dependencies for the Frontend
+
+
+### Step 2: Install Dependencies for the Frontend in another terminal
+
 1. **Navigate to the folder**  -
   ```bash
+  cd Customer-Management-master
     cd frontend
     npm install axios react
     npm run dev 
