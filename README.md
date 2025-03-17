@@ -31,11 +31,11 @@ Follow these steps to run the project locally:
 
    ```bash
       npm install -g json-server
-   and run in root:
       json-server --watch db.json --port 5000
 ### Step 2: Install Dependencies for the Frontend
 1. **Navigate to the folder**  -
+  ```bash
     cd frontend
-2. npm install axios react
-3. npm run dev 
+    npm install axios react
+    npm run dev 
 
